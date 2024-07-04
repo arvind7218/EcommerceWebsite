@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d6000892b2.js" crossorigin="anonymous"></script>
+    <title>Registration Page</title>
+    <style>
+        .registerPage {
+            width: 50%;
+            height: 600px;
+            background-color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            border-radius: 5%;
+            box-shadow: 0px 2px 2px 2px rgb(229, 224, 224);
+            margin-top: 60px;
+        }
+
+        .left-right {
+            display: flex;
+            gap: 150px;
+        }
+
+        .left-right input {
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+
+        .sign-up-head {
+            margin-top: 60px;
+        }
+
+        .right-side {
+            margin-top: 100px;
+        }
+
+        .register button {
+            width: 130px;
+            height: 40px;
+            font-size: 18px;
+            margin-top: 70px;
+            margin-right: 100px;
+            background-color: rgb(70, 189, 181);
+            border-radius: 4%;
+        }
+    </style>
+</head>
+<body>
+    <div class="registerPage" id="registerPage">
+        <div class="left-right">
+            <div class="left-side">
+                <div class="sign-up-head">
+                    <h2>Sign Up</h2>
+                </div>
+                <div>
+                    <i class="fas fa-user"></i>
+                    <input id="name" type="text" placeholder="Your Name">
+                    <hr><br>
+
+                    <i class="fas fa-envelope"></i>
+                    <input id="email" type="email" placeholder="Your Email">
+                    <hr><br>
+
+                    <i class="fas fa-lock"></i>
+                    <input id="password1" type="password" placeholder="Password">
+                    <hr><br>
+
+                    <i class="fas fa-lock"></i>
+                    <input id="confirm-password1" type="password" placeholder="Confirm Password">
+                    <hr><br>
+
+                    <i class="fas fa-phone"></i>
+                    <input id="phone" type="text" placeholder="Contact no">
+                    <hr><br>
+                    <div class="term">
+                        <input id="agree" type="checkbox" required>
+                        <label for="agree">I agree to all statements</label>
+                    </div>
+
+                    <div class="register">
+                        <button id="register-btn">Register</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="signup-image.jpg" alt="Signup Image">
+            </div>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

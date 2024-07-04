@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Trends</title>
+    <link rel="stylesheet" href="Eco.css">
+    <script src="https://kit.fontawesome.com/d6000892b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="box" class="box"></div>
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <a id="login" onclick="loginPage()">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Explore the combination of style and comfort with cool T shirts in various themes and designs.
+                </p>
+                <button>Explore</button>
+            </div>
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/w/g/l/m-mmm-solbiza-original-imagzyastb2kzyvc.jpeg?q=70"
+                alt="Shirt Image">
+        </div>
+
+        <!-- cards -->
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/l/s/xl-hlzs000031-highlander-original-imagqy3uruszhzgn.jpeg?q=70"
+                        alt="Trending Boy Shirts" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Boy Shirts</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/b/d/f/3xl-13-lstr-wine-vtexx-original-imagnzbummhkgr7p.jpeg?q=70"
+                        alt="Trending Boy Cloth" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Boy Cloth</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/j/v/g/xxl-2384-s-hiphopfashion-original-imagmnhnrtefasm6.jpeg?q=70"
+                        alt="Trending Men's Sweatshirt" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Men's Sweatshirt</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Women Card -->
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>Trends <span>Women's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/salwar-kurta-dupatta/d/b/d/m-dipika-pieemara-original-imagkc4eq3qgg3rh.jpeg?q=70"
+                        alt="Trending Girl Top's" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/salwar-kurta-dupatta/b/l/a/m-dipika-pieemara-original-imagk5hvh9rnqh8z.jpeg?q=70"
+                        alt="Trending Girl Top's" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/salwar-kurta-dupatta/g/s/s/xl-dipika-pieemara-original-imagkdaguv7mqj4z.jpeg?q=70"
+                        alt="Trending Girl Top's" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us -->
+        <div class="about">
+
+            <div class="me">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.J99yPtmNJvuEqQOXa7vamAHaKP&pid=Api&P=0&h=180"
+                    alt="Sagar Group">
+                <div class="aboutText">
+                    <h1>Who we are?</h1>
+                    <p>Sagar Group of Institutions have emerged as a group of Best Private Colleges in Bhopal with
+                        its
+                        state-of-the-art facility and its expertise in Engineering, Pharmacy, and MBA education.
+                        Three
+                        institutional campuses rich in infrastructure and amenities proudly flourish under the aegis
+                        of
+                        the brand Sagar Group.</p>
+                </div>
+            </div>
+            <div class="aboutus">
+                <h1>#KnowUs</h1>
+                <p>Sagar Group, an invariably embraced mega-conglomerate is accurately contributing towards Atma
+                    Nirbhar
+                    Madhya Pradesh and thus India's economic pace.</p>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <div class="contactus">
+                <h1>#Let's Connect</h1>
+            </div>
+            <div class="contactMe">
+                <div class="contactText">
+                    <h1>Visit Our Office or Contact Us Today</h1>
+                    <p>Address: Sagar Institute of Science Technology and Engineering, Ratibad, Bhopal</p>
+                    <p>Email: sistec@gmail.com</p>
+                    <p>Phone: 6374158350</p>
+                </div>
+                <img src="https://i.ytimg.com/vi/F1KsEMPM9_c/maxresdefault.jpg" alt="Contact Office">
+            </div>
+        </div>
+
+        <!-- cart -->
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cartText">
+                <h1>Trends Offer: Trending Shop Now</h1>
+                <h2>Special Price</h2>
+                <h2>$11</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addCart()">Add to Cart</button>
+                </div>
+                <button class="back">Back</button>
+            </div>
+        </div>
+
+        <!-- blogs -->
+        <div class="trends">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/fabric/s/f/j/-original-imaggze9yqgerxke.jpeg?q=70"
+                        alt="Trending Girl Clothes">
+                    <div class="blogText">
+                        <h2>Trending Girl Clothes</h2>
+                        <p>Ashleigh frequently posts “How To” articles, often adapted to target a particular segment
+                            of
+                            her audience. She has written posts that are aimed at women of varying ages:</p>
+                        <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/r/9/n/xxl-patta-14-jai-textiles-original-imagn2fzpawqukgq.jpeg?q=70"
+                        alt="Trending Boys Clothes">
+                    <div class="blogText">
+                        <h2>Trending Boys Clothes</h2>
+                        <p>When it comes to fashion, visuals are key. It’s no wonder, then, that many lovers of
+                            style
+                            turn to Instagram and fashion blogs to get their fill of all things fashion.</p>
+                        <a href="https://www.apetogentleman.com/">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Letter -->
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign Up for Newsletter</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <!-- login page  -->
+        <div class="loginPages" id="loginPages">
+            <div class="left-right">
+                <div class="left-side">
+                    <img src="signin-image.jpg" alt="">
+                    <div class="create-account">
+                        <a href="register.html">Create an account</a>
+                    </div>
+                </div>
+
+                <div class="rigth-side" id="LR">
+                    <form id="loginpage">
+                        <div class="sign-up-head">
+                            <h2>Sign In</h2>
+                        </div>
+                        <div class="user-pass-container" id="userPassContainer">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Your Name" id="username" required>
+                            <hr><br>
+
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password" id="password" required>
+                            <hr><br>
+                        </div>
+                        <div class="term">
+                            <input type="checkbox" required>Remember me
+                        </div>
+                        <div class="login">
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footerText">
+                <h2>Trends</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+            <div class="footerText">
+                <h2>About Us</h2>
+                <p>Address: Sagar Institute of Science Technology and Engineering, Ratibad, Bhopal</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+            <div class="footerText">
+                <h2>Contact</h2>
+                <p>6374158350</p>
+                <p>Customer</p>
+                <p>Coming Up</p>
+                <p>New Arrival</p>
+            </div>
+            <div class="footerText">
+                <h2>Trending</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Shops</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="Eco.js"></script>
+</body>
+
+</html>
